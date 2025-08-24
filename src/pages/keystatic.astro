@@ -1,10 +1,8 @@
 ---
-import { makePage } from "@keystatic/astro/ui";
-import keystaticConfig from "../../keystatic.config";
-
-const KeystaticPage = makePage(keystaticConfig);
+import { Keystatic as KeystaticAdmin } from "../../keystatic.page";
 ---
 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -12,6 +10,8 @@ const KeystaticPage = makePage(keystaticConfig);
     <title>Keystatic Admin</title>
   </head>
   <body>
-    <KeystaticPage client:only="react" />
+    <div id="keystatic-app">
+      <KeystaticAdmin client:only="react" />
+    </div>
   </body>
 </html>
