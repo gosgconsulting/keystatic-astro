@@ -9,6 +9,14 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   integrations: [react(), markdoc(), keystatic()],
   output: 'static',
+  alias: {
+    '@assets': './src/assets',
+    '@components': './src/components',
+    '@styles': './src/styles',
+    '@layouts': './src/layouts',
+    '@content': './src/content',
+    '@settings': './src/settings'
+  },
   vite: {
     plugins: [tailwindcss()]
   }

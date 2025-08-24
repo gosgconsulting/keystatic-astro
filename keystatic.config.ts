@@ -1,6 +1,6 @@
 import { config } from '@keystatic/core';
-import { home, navbar, footer, branding, seo } from 'src/cms/singletons';
-import { posts } from 'src/cms/collections';
+import { home, navbar, footer, branding, seo } from './src/cms/singletons';
+import { posts } from './src/cms/collections';
 
 export default config({
   storage: {
