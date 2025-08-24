@@ -20,7 +20,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     preview: {
-      host: true
+      host: '0.0.0.0',
+      allowedHosts: 'all'
     }
   }
 });
