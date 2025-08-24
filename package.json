@@ -4,7 +4,7 @@
   "license": "MIT",
   "dependencies": {
     "@astrojs/markdoc": "^0.15.1",
-    "@astrojs/node": "^9.1.0",
+    "@astrojs/node": "^9.4.3",
     "@astrojs/react": "^4.3.0",
     "@keystatic/astro": "^5.0.6",
     "@keystatic/core": "^0.5.48",
