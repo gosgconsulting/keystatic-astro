@@ -18,6 +18,9 @@ export default defineConfig({
     '@settings': './src/settings'
   },
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    preview: {
+      host: true
+    }
   }
 });
