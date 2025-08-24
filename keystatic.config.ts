@@ -4,11 +4,7 @@ import { posts } from './src/cms/collections';
 
 export default config({
   storage: {
-    kind: 'github',
-    repo: {
-      owner: 'TheWebsiteGuy',
-      name: 'astrokeys',
-    },
+    kind: 'local',
   },
 
     ui: {

@@ -23,7 +23,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "start": "node ./dist/server/entry.mjs",
+    "start": "serve dist -s -l $PORT",
     "build": "astro build",
     "postinstall": "astro sync",
     "preview": "astro preview",
